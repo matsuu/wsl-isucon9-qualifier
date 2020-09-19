@@ -39,9 +39,10 @@ cd ~isucon/isucari
 bin/benchmark
 ```
 
-## 参考
+## 関連
 
 * [ISUCON9予選問題](https://github.com/isucon/isucon9-qualify)
+* [matsuu/wsl-isucon10-qualifier](https://github.com/matsuu/wsl-isucon10-qualifier)
 
 ## TODO
 
