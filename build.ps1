@@ -5,8 +5,8 @@ Param(
 
 $ErrorActionPreference = "Stop"
 
-$uri = "http://cdimage.ubuntu.com/ubuntu-base/releases/18.04.4/release/ubuntu-base-18.04.4-base-amd64.tar.gz"
-$sha256sum = "152C256B093D8C420BE443BA01E1BAB18A9F56A49A26ABCAC492D08F3B8C92E6"
+$uri = "http://cdimage.ubuntu.com/ubuntu-base/releases/18.04.5/release/ubuntu-base-18.04.5-base-amd64.tar.gz"
+$sha256sum = "8FF20B47BB123E4271DA81B77EE56E6B5AEB85EAF7D9B1B5F6F3FBC7F11D07EA"
 $tarball = Join-Path $PSScriptRoot ([System.IO.Path]::GetFileName($uri))
 
 If (![System.IO.File]::Exists($tarball)) {
